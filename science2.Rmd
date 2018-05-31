@@ -1,0 +1,28 @@
+---
+title: "The Science of Politics"
+author: "Andrew O'Geen"
+date: "6/22/2018"
+output: ioslides_presentation
+---
+
+## Types of Questions and Answers
+
+ - Normative theory or social science
+ 
+## Types of Questions and Answers
+ 
+ <center>Is health care solely the responsibility of the individual or is it a right that all people inherently possess?</center>
+ 
+## Types of Questions and Answers
+ 
+ <center>What is the best method for implementing a universal, single-payer health care system?</center>
+ 
+## Characteristics of Scientific Research
+
+> 1. Procedures are public
+> 2. Conclusions are uncertain
+> 3. Inferences
+> 4. The content is the method
+
+
+
