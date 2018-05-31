@@ -20,9 +20,9 @@ output: ioslides_presentation
 How to find me:
 
 1. Look around
-2. Email me: anogeen@davidson.edu
-3. Call me: 704.894.2476
-4. Make an appointment: [andrewogeen.com/officehours](http://andrewogeen.com/officehours)
+2. Make an appointment: [andrewogeen.com/officehours](http://andrewogeen.com/officehours)
+3. Email me: anogeen@davidson.edu
+4. Call me: 704.894.2476
 
 ## Your Texts
 
@@ -38,6 +38,6 @@ How to find me:
  
  - Statistics
  
- - Coding (overcoming barriers)
+ - Coding 
  
  - Self-help
