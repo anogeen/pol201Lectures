@@ -1,0 +1,110 @@
+---
+title: POL 201 - Methods and Statistics
+subtitle: The Science of Politics
+author: Andrew O'Geen
+institute: Department of Political Science, Davidson College
+output: 
+  beamer_presentation:
+    keep_tex: true
+    latex_engine: xelatex
+    template: rmd_teaching_slides.tex
+
+---
+
+## The Reading in Context
+
+ - \textcolor{red}{UNC Writing Center}
+ - Pye - Behavioral Revolution
+ - Monkey Cage
+ 
+## The Reading in Context
+
+ - UNC Writing Center
+ - \textcolor{red}{Pye - Behavioral Revolution}
+ - Monkey Cage
+ 
+## The Reading in Context
+
+ - UNC Writing Center
+ - Pye - Behavioral Revolution
+ - \textcolor{red}{Monkey Cage}
+ 
+## Types of Questions and Answers
+
+- Normative theory or social science 
+- Is health care a right or a responsibility?
+- What is the optimal implementation method?
+
+## Characteristics of Scientific Research
+
+1. \textcolor{red}{Procedures are public}
+2. Conclusions are uncertain
+3. Inferences
+4. The content is the method
+
+## Characteristics of Scientific Research
+
+1. Procedures are public
+2. \textcolor{red}{Conclusions are uncertain}
+3. Inferences
+4. The content is the method
+
+## Characteristics of Scientific Research
+
+1. Procedures are public
+2. Conclusions are uncertain
+3. \textcolor{red}{Inferences}
+4. The content is the method
+
+## Characteristics of Scientific Research
+
+1. Procedures are public
+2. Conclusions are uncertain
+3. Inferences
+4. \textcolor{red}{The content is the method}
+
+## Modeling As a Tool
+### Uses for Statistical Models
+
+ - Description
+ - Classification and Prediction
+ - Anticipating consequences
+ 
+## Modeling As a Tool
+### Observation and Knowledge
+
+ - Observation is unreliable
+ - Isolating causal effects
+ - Fundamental problem of causal inference
+ - Better to be systematic
+ 
+## Modeling As a Tool
+### What Are We Doing?
+
+ - Describing and interpreting variation
+ - One variable or relationships
+ - Math!
+ 
+## Modeling As a Tool
+### How Do We Know If We Are Doing It Right?
+
+ - Reliability as a metric
+ - Subjectivity is okay
+ - Know your limits
+ 
+## The Heart of the Matter {.c}
+
+\begin{center}
+How do we use \textbf{\textcolor{red}{samples}} to make \textbf{\textcolor{red}{confident}} statements about entire \textbf{\textcolor{red}{populations}}?
+\end{center}
+
+## Final Words of Warning
+
+1. Samples cannot tell us anything with certainty.
+2. Systematic mistakes in collecting our samples can ruin our results.
+
+## The End {.c}
+\centering
+What are your questions?
+
+
