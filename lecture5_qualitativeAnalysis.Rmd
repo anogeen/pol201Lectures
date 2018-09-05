@@ -42,6 +42,7 @@ output:
 ## Transcription Errors
 
 ![](images/transcriptionErrors.png)
+
 ## Coding
 
  - Unit of analysis
@@ -57,10 +58,13 @@ output:
 
 ## Displaying Data
 
--\textbf{Taxonomy}: system of ordered classification
--\textbf{Data Matrix}: individuals or other units represent columns and coding categories represent rows
--\textbf{Typology}: representation of findings based on the interrelationship between two or more ideas, concepts, or variables
--\textbf{Flow Chart}: diagrams that display processes
+- \textbf{Taxonomy}: system of ordered classification  
+  
+- \textbf{Data Matrix}: individuals or other units represent columns and coding categories represent rows  
+  
+- \textbf{Typology}: representation of findings based on the interrelationship between two or more ideas, concepts, or variables  
+  
+- \textbf{Flow Chart}: diagrams that display processes
 
 ## Data Matrix
 
@@ -75,17 +79,14 @@ output:
 ![](images/flowChart.png)
  
 ## Drawing and Evaluating Conclusions
+### Conclusions
+- Descriptive $\leftrightarrow$ Theoretical
 
-Conclusions
-  
-  Descriptive \leftrightarrow Theoretical
-    
-Evaluations
-  
-  - Compare notes
-  - Exceptions
-  - Member checking
-  
+### Evaluations
+- Compare notes
+- Exceptions
+- Member checking
+
 ## Grounded Theory
 
  - Develop theory from data
