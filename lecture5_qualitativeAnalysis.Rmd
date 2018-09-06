@@ -1,6 +1,6 @@
 ---
 title: POL 201 - Methods and Statistics
-subtitle: Literature Reviews
+subtitle: Introduction to Qualitative Analysis
 author: Andrew O'Geen
 institute: Department of Political Science, Davidson College
 output: 
