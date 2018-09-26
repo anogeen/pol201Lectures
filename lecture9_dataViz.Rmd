@@ -139,19 +139,19 @@ ggplot(sat.act, aes(SATV, SATQ)) + geom_smooth()
 ``` 
  
 ## Combining Geoms
-```{r warning=FALSE, message=FALSE, comment=NA}
+```{r warning=FALSE, message=FALSE, comment=NA, fig.width=5, fig.height=3}
 ggplot(sat.act, aes(SATV, SATQ)) + geom_point() + 
   geom_smooth()
 ``` 
 
 ## Regression Line
-```{r warning=FALSE, message=FALSE, comment=NA}
+```{r warning=FALSE, message=FALSE, comment=NA, fig.width=5, fig.height=3}
 ggplot(sat.act, aes(SATV, SATQ)) + geom_point() + 
   geom_smooth(method = "lm")
 ``` 
 
 ## Regression Line
-```{r warning=FALSE, message=FALSE, comment=NA}
+```{r warning=FALSE, message=FALSE, comment=NA, fig.width=5, fig.height=3}
 ggplot(sat.act, aes(SATV, SATQ)) + geom_point() + 
   geom_smooth(method = "lm", se = FALSE)
 ``` 
@@ -162,7 +162,7 @@ ggplot(sat.act, aes(gender, SATQ)) + geom_point()
 ``` 
  
 ## Discrete X Continous Y
-```{r warning=FALSE, message=FALSE, comment=NA}
+```{r warning=FALSE, message=FALSE, comment=NA, fig.width=5, fig.height=3}
 ggplot(sat.act, aes(gender, SATQ)) + geom_point() +
   geom_jitter()
 ``` 
