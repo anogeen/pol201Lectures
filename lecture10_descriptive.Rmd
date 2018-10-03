@@ -1,0 +1,166 @@
+---
+title: POL 201 - Methods and Statistics
+subtitle: Descriptive Statistics
+author: Andrew O'Geen
+institute: Department of Political Science, Davidson College
+output: 
+  beamer_presentation:
+    keep_tex: true
+    latex_engine: xelatex
+    template: rmd_teaching_slides.tex
+
+---
+
+## Descriptive v. Inferential
+
+$$
+\begin{aligned}
+\text{Descriptive Statistics} &= 
+\begin{cases}
+    \text{Frequencies} \\
+    \text{Basic measurments}\\
+    \text{How many? How much?}
+\end{cases}
+\\
+\\
+\text{Inferential Statistics} &= 
+\begin{cases}
+    \text{Hypothesis testing} \\
+    \text{Confidence intervals}\\
+    \text{Associations between phenomena}\\
+    \text{Generalizable conclusions}
+\end{cases}
+\end{aligned}
+$$ 
+
+## {.c}
+
+\centering
+Why do we need descriptive statistics?
+
+
+## Dispersion
+
+```{r, echo=F}
+x   <- seq(5,15,length=1000)
+y   <- dnorm(x,mean=10, sd=1)
+z   <- dnorm(x,mean=10, sd=5)
+par(mfrow=c(1,2))
+plot(x,y, type="l", lwd=1, main="Standard Deviation=1")
+plot(x,z, type="l", lwd=1, main="Standard Deviation=5")
+``` 
+ 
+
+## The Mode
+
+ - Most basic measure of central tendency
+ - The value that we see most often in the data
+ 
+
+## The Mode
+
+ - Most basic measure of central tendency
+ - The value that we see most often in the data
+ - What is the mode of the following set of numbers?  
+ `[14, 10, 10, 39, 21, 4, 6, 94, 10]` 
+ 
+## The Mode
+
+```{r comment=NA}
+# Create variable containing first set of numbers
+z <- c(14, 10, 10, 39, 21, 4, 6, 94, 10)
+# Generate table to see the modal value
+table(z)
+```
+
+## The Mode
+
+ - Most basic measure of central tendency
+ - The value that we see most often in the data
+ - What is the mode of the following set of numbers?  
+ `[14, 10, 10, 39, 21, 4, 6, 94, 10]`  
+ - What about this set? `[1, 2, 2, 2, 3, 4, 5, 5, 5]`
+
+## The Mode
+
+```{r comment=NA}
+# Create variable containing first set of numbers
+b <- c(1, 2, 2, 2, 3, 4, 5, 5, 5)
+# Generate table to see the modal value
+table(b)
+```
+
+## The Mean
+
+$$\large mean_x =  \frac{x_{1} + x_{2} + x_{3} + . . . + x_{n} }{n}$$
+Or, more formally
+ 
+$$\large \bar{x} = \frac{\sum\limits_{i=1}^n x_i}{n}$$ 
+
+## The Mean
+
+ - Different notation for populations and samples
+ - True for all statistics
+ - mean of the population: $\mu_x$ 
+ - mean of sample: $\bar{x}$ 
+ 
+## The Mean
+
+```{r echo=FALSE}
+set.seed(123456)
+```
+
+```{r comment=NA}
+# Generate random variable with 1000 observations
+x <- rnorm(1000, mean=24, sd=2)
+# Calculate the mean
+mean(x)
+```
+
+## The Median
+
+ - Mean can be misleading
+ - Bill Gates walks into a bar...
+ - Middle of the data. Equal number of observations above and below.
+ 
+## The Median {.c}
+
+$$
+\Large  \tilde{x} = 
+\begin{cases}
+    x_{(\frac{n+1}{2})}              & \text{when n is odd} \\
+    \frac{1}{2}({x_{(\frac{n}{2})}+x_{(1+\frac{n}{2})})}  & \text{when n is even}
+\end{cases}
+$$ 
+
+## The Median
+
+```{r comment=NA}
+median(x)
+x[1001] <- 48000
+mean(x)
+median(x)
+```
+
+## The Interquartile Range
+
+ - Bounds defined by the 25th and 75th percentiles
+ - 25% of the data are less than or equal
+ - 75% of the data are less than or equal  
+
+$$\LARGE IQR_x = [x_{(\frac{n}{4})}, x_{(\frac{3n}{4})}]$$
+
+## The Interquartile Range
+
+ 
+```{r comment=NA}
+summary(x)
+IQR(x)
+25.33-22.70
+```
+
+## The End {.c}
+\centering
+What questions do you have?
+
+
