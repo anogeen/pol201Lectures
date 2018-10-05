@@ -1,0 +1,102 @@
+---
+title: POL 201 - Methods and Statistics
+subtitle: Descriptive Statistics, part II
+author: Andrew O'Geen
+institute: Department of Political Science, Davidson College
+output: 
+  beamer_presentation:
+    keep_tex: true
+    latex_engine: xelatex
+    template: rmd_teaching_slides.tex
+
+---
+
+```{r eval=T,echo=F,message=F}
+load("data/pres12.rda")
+```
+
+## The Basics
+
+ - An important part of statistical modeling is understanding and explaining variation.
+
+ - Start simple.  Describe variation in a single variable as simply as possible.
+
+ - Measures of central tendency don't really speak to variation.
+
+
+## The Basics
+
+- Think of central tendency as very simple model of data
+
+- Each observation on a variable then has two components, the model value and the variation from the model
+
+- Individual case = model value + deviation (aka "residual") 
+
+## Variance 
+
+
+Height    |   Model Value |    Residual    |  Squared Residual
+----------+---------------+----------------+-----------------
+72.0      |   66.1        |   5.9          |   34.81   
+62.0      |   66.1        |   -4.1         |   16.81  
+68.0      |   66.1        |   1.9          |   3.61   
+65.5      |   66.1        |   -0.6         |   0.36   
+63.0      |   66.1        |   -3.1         |   9.61  
+
+Sum of Squares =  $\Sigma(x-\bar{x})^2$ = 65.2
+
+## Variance and Standard Deviation 
+
+- To calculate the variance, we simply divide the sum of squares by $n-1$
+
+$$\LARGE var_{x} = \frac{\Sigma(x-\bar{x})^2}{n-1}$$
+
+- But the units are funky.  Here it is squared inches.
+
+- We need something more useful...
+
+## Standard Deviation
+
+- Calculating the standard deviation is easy!
+- $\sigma$ versus $S_{X}$
+
+$$
+\LARGE S_{x} = \sqrt{\frac{\Sigma(x-\bar{x})^2}{n-1}}
+$$
+
+- By taking the square root, we make the units the standard units in the data
+
+- The standard deviation gives us a rough estimate of the typical deviation from the mean
+ 
+## What was Obama's vote share by state in 2012?
+
+```{r comment=NA}
+mean(pres12$Obama12Share)
+var(pres12$Obama12Share)
+sd(pres12$Obama12Share)
+sqrt(var(pres12$Obama12Share))
+```
+
+## In Pictures
+
+```{r, echo=F}
+x   <- seq(5,15,length=1000)
+y   <- dnorm(x,mean=10, sd=1)
+z   <- dnorm(x,mean=10, sd=5)
+par(mfrow=c(1,2))
+plot(x,y, type="l", lwd=1, main="Standard Deviation = 1")
+plot(x,z, type="l", lwd=1, main="Standard Deviation = 5")
+```
+
+## For later... 
+
+ - Explaining variation
+ - Dividing variance: model v. residual
+ - What percent of the total does our model capture?
+ - How well are we doing?
+
+## The End {.c}
+\centering
+What questions do you have?
+
+
