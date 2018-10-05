@@ -148,7 +148,7 @@ median(x)
  - 25% of the data are less than or equal
  - 75% of the data are less than or equal  
 
-$$\LARGE IQR_x = [x_{(\frac{n}{4})}, x_{(\frac{3n}{4})}]$$
+$$\Large IQR_x = [x_{(\frac{n}{4})}, x_{(\frac{3n}{4})}]$$
 
 ## The Interquartile Range
 
