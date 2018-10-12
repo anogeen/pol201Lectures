@@ -1,0 +1,153 @@
+---
+title: POL 201 - Methods and Statistics
+subtitle: Bivariate Regression
+author: Andrew O'Geen
+institute: Department of Political Science, Davidson College
+output: 
+  slidy_presentation:
+    incremental: no
+  beamer_presentation:
+    keep_tex: true
+    latex_engine: xelatex
+    template: rmd_teaching_slides.tex
+
+---
+
+```{r loadData, echo=FALSE,message=FALSE,warning=FALSE}
+knitr::opts_chunk$set(comment=NA)
+library(ggplot2)
+donuts <- read.csv("data/donutData.csv")
+```
+
+
+## Unbiasedness
+
+- Does our estimate equal the true population parameter, _on average_?
+
+- Not perfect, but accurate on average.
+
+- $\hat{\beta_1}$ is an unbiased estimator of $\beta_1$ if X is uncorrlated with $\epsilon$
+
+## Precision
+
+- Our guess for the true relationship between variables, $\hat{\beta_1}$, will be wrong
+
+- Why?  Bias or random chance.
+
+- If no bias, average of all possible $\hat{\beta_1}$s is $\beta_1$
+
+- Need to know width of distribution of all possible $\hat{\beta_1}$s
+
+- **Standard Error** is the standard deviation of the sampling distribution
+
+- The smaller the standard error, the more precise our estimate 
+
+## Heteroskedasticity
+
+- In order to accurately estimate the standard error, we need homoskedasticity
+
+- "Homo"=same; "Scedastic"=variance
+
+- Heteroskedastic errors are more variable depending on values of X
+
+- Does not affect estimates of $\hat{\beta_1}$ but affects standard error calculation
+
+* Computer can correct for you!
+
+## Correlated Errors
+
+- OLS estimation also assumes uncorrelated errors
+
+- Time series data are consistent culprit.
+
+- $Dow Average_t = Dow Average_{t-1} + \epsilon_t$
+
+- $Dow Average_{t+1} = (Dow Average_{t-1} + \epsilon_t) + \epsilon_{t+1}$
+
+- Also does not bias estimates of $\hat{\beta_1}$ but does affect standard error calculation
+
+## Goodness of Fit
+
+- R reports the residual standard error
+
+$$\Large \sqrt{\frac{\sum_{i=1}^{N}(Y_i-\hat{Y_i})^2}{N-k}}$$
+- Can be understood as the average deviation of the model predictions
+
+- In units of the DV
+
+## Goodness of Fit
+
+- $R^2$ measures the squared correlation between fitted values and data
+
+- Ranges between 0 and 1
+
+- Proportion of the variance in Y explained by the model.
+
+## Linear Regression in R
+Look at your data.
+```{r}
+ggplot(donuts, aes(donuts, weight)) +
+  geom_point() +
+  labs(list(x="Donuts Per Week", y="Weight"))
+```
+
+## Linear Regression in R
+
+```{r, eval=FALSE,echo=TRUE }
+m1 <- lm(weight ~ donuts, data=donuts)
+summary(m1)
+```
+
+## Linear Regression in R
+
+```{r }
+m1 <- lm(weight ~ donuts, data=donuts)
+summary(m1)
+```
+
+## Fitted values and Residuals
+```{r}
+m1$fitted.values
+m1$residuals
+```
+
+## Checking for Heteroskedasticity
+
+```{r eval=FALSE}
+fit <- m1$fitted.values
+resid <- m1$residuals
+hetskad <- data.frame(fit,resid)
+
+ggplot(hetskad, aes(x=fit, y=resid)) +
+	geom_point() +
+	labs(list(x="Fitted Values", y="Residuals"))
+```
+
+## Checking for Heteroskedasticity
+
+```{r}
+fit <- m1$fitted.values
+resid <- m1$residuals
+hetskad <- data.frame(fit,resid)
+
+ggplot(hetskad, aes(x=fit, y=resid)) +
+	geom_point() +
+	labs(list(x="Fitted Values", y="Residuals"))
+```
+
+## Another Look
+```{r, message=FALSE}
+ggplot(donuts, aes(donuts, weight)) +
+  geom_point() +
+  geom_smooth(method="lm") +
+  labs(list(x="Donuts Per Week", y="Weight"))
+```
+
+$$ \hat{Weight} = 122.736 + 9.212(Donuts) $$
+
+
+## The End {.c}
+\centering
+What questions do you have?
+
+
