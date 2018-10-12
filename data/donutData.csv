@@ -1,0 +1,14 @@
+name,donuts,weight,child,male
+Homer,14,275,0,0
+Marge,0,141,0,1
+Lisa,0,70,-1,1
+Bart,5,75,-1,0
+ComicBookGuy,20,310,0,0
+Mr Burns,0.75,80,0,0
+Smithers,0.25,160,0,0
+Chief Wiggum,16,263,0,0
+Principal Skinner,3,205,0,0
+Rev. Lovejoy,2,185,0,0
+Ned Flanders,0.8,170,0,0
+Patty,5,155,0,1
+Selma,4,145,0,1
