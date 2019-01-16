@@ -14,20 +14,20 @@ output:
 ## The Reading in Context
 
  - \textcolor{red}{UNC Writing Center}
- - Pye - Behavioral Revolution
- - Monkey Cage
+ - King, Kohane, & Verba - Designing Social Inquiry
+ - Lave & March - An Introduction to Models in the Social Sciences
  
 ## The Reading in Context
 
  - UNC Writing Center
- - \textcolor{red}{Pye - Behavioral Revolution}
- - Monkey Cage
+ - \textcolor{red}{King, Kohane, & Verba - Designing Social Inquiry}
+ - Lave & March - An Introduction to Models in the Social Sciences
  
 ## The Reading in Context
 
  - UNC Writing Center
- - Pye - Behavioral Revolution
- - \textcolor{red}{Monkey Cage}
+ - King, Kohane, & Verba - Designing Social Inquiry
+ - \textcolor{red}{Lave & March - An Introduction to Models in the Social Sciences}
  
 ## Types of Questions and Answers
 
