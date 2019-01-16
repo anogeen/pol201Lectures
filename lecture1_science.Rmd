@@ -14,20 +14,20 @@ output:
 ## The Reading in Context
 
  - \textcolor{red}{UNC Writing Center}
- - King, Kohane, & Verba - Designing Social Inquiry
- - Lave & March - An Introduction to Models in the Social Sciences
+ - King, Kohane, \& Verba - Designing Social Inquiry
+ - Lave \& March - An Introduction to Models in the Social Sciences
  
 ## The Reading in Context
 
  - UNC Writing Center
- - \textcolor{red}{King, Kohane, & Verba - Designing Social Inquiry}
- - Lave & March - An Introduction to Models in the Social Sciences
+ - \textcolor{red}{King, Kohane, \& Verba - Designing Social Inquiry}
+ - Lave \& March - An Introduction to Models in the Social Sciences
  
 ## The Reading in Context
 
  - UNC Writing Center
- - King, Kohane, & Verba - Designing Social Inquiry
- - \textcolor{red}{Lave & March - An Introduction to Models in the Social Sciences}
+ - King, Kohane, \& Verba - Designing Social Inquiry
+ - \textcolor{red}{Lave \& March - An Introduction to Models in the Social Sciences}
  
 ## Types of Questions and Answers
 
