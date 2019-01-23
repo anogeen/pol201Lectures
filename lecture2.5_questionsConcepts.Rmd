@@ -1,0 +1,182 @@
+---
+title: POL 201 - Methods and Statistics
+subtitle:  Questions and Concepts
+author: Andrew O'Geen
+institute: Department of Political Science, Davidson College
+output: 
+  beamer_presentation:
+    keep_tex: true
+    latex_engine: xelatex
+    template: rmd_teaching_slides.tex
+
+---
+
+## It's a Process
+ 
+ 1. Question
+ 2. Literature Review
+ 3. Theory/Hypotheses
+ 4. Data
+ 5. Analysis
+ 6. Conclusions
+
+## Where Do We Start?
+
+ 1. \textcolor{red}{Question}
+ 2. Literature Review
+ 3. Theory/Hypotheses
+ 4. Data
+ 5. Analysis
+ 6. Conclusions
+
+## Topic v. Question
+\begin{columns}
+\column{.5\textwidth}
+\textbf{Topics}
+\small{\begin{itemize}
+\item International development
+\item Voting rights in U.S. Elections
+\item Water disputes in the Middle East
+\item Democratization
+\item European elections
+\end{itemize}}
+
+\column{.5\textwidth}
+\textbf{Questions}
+\small{\begin{itemize}
+\item Sentences with a ? at the end.
+\end{itemize}}
+\end{columns}
+
+## {.c}
+
+\centering
+Good research questions are short and direct statements about an interesting, important, and answerable question.
+
+## A Puzzle
+
+Who Turned My \textcolor{blue}{Blue} State \textcolor{red}{Red}?
+  
+    
+Why do states with higher concentrations of poor residents tend to support the party that is typically looking to cut social programs for the poor?
+
+## Examples
+
+\textcolor{red}{Bad}  
+What percentage of registered voters voted in the most recent local elections?
+
+## Examples
+
+\textcolor{red}{Bad}  
+What percentage of registered voters voted in the most recent local elections?
+  
+\textcolor{green}{Good}  
+Why is voter turnout for local elections higher in some cities than others?
+
+## Examples
+
+\textcolor{red}{Bad}  
+What percentage of registered voters voted in the most recent local elections?
+  
+\textcolor{green}{Good}  
+Why is voter turnout for local elections higher in some cities than others?
+  
+\textcolor{red}{Bad}  
+How much money does each school district in North Carolina spend?
+  
+## Examples
+
+\textcolor{red}{Bad}  
+What percentage of registered voters voted in the most recent local elections?
+  
+\textcolor{green}{Good}  
+Why is voter turnout for local elections higher in some cities than others?
+  
+\textcolor{red}{Bad}  
+How much money does each school district in North Carolina spend?
+  
+\textcolor{green}{Good}  
+Why does the amount spent per pupil by school districts in North Carolina vary?
+
+## Examples
+
+\textcolor{red}{Bad}  
+How do U.S. Supreme Court justices make decisions?
+
+## Examples
+
+\textcolor{red}{Bad}  
+How do U.S. Supreme Court justices make decisions?
+  
+\textcolor{green}{Good}  
+To what extent does personal ideology impact justices' decisions?
+
+## Examples
+
+\textcolor{red}{Bad}  
+How do U.S. Supreme Court justices make decisions?
+  
+\textcolor{green}{Good}  
+To what extent does personal ideology impact justices' decisions?
+  
+\textcolor{red}{Bad}  
+\small{Committees are an important part of the U.S. Congress.  Many researchers have noted that institutions like committees can have important impacts on legislative outcomes.  Also, Congress controls all government spending in the United States.  How then do committees impact spending?}
+  
+## Examples
+
+\textcolor{red}{Bad}  
+How do U.S. Supreme Court justices make decisions?
+  
+\textcolor{green}{Good}  
+To what extent does personal ideology impact justices' decisions?
+  
+\textcolor{red}{Bad}  
+\small{Committees are an important part of the U.S. Congress.  Many researchers have noted that institutions like committees can have important impacts on legislative outcomes.  Also, Congress controls all government spending in the United States.  How then do committees impact spending?}
+  
+\textcolor{green}{Good}  
+How does seniority and the committee structure impact roll-call voting on social spending bills?
+
+## Next Steps {.c}
+
+"One of the first challenges in research is to devise ways of getting from the abstract level of our questions to some concrete observation that will allow us to answer them."
+
+## Definition {.c}
+
+Operationalization is the process of selecting observable phenomena to represent abstract concepts.
+
+## Example
+
+To what extent does the method of test-taking impact student performance?
+  
+What do we mean by "method of test-taking?"
+  
+What do we mean by "student performance?"
+
+
+## Why Do We Operationalize?
+
+  - One goal of our data analysis should always be generalizable inferences.
+  - Start with abstract concepts in your theory.
+  - Test theory with observable phenomena.
+  - \textcolor{red}{Operationalization connects theory with observation}
+  - Multi-dimensionality
+  
+## Levels of Measurement
+
+### Nominal
+ - Unordered categories
+ - Limited information
+ 
+### Ordinal
+ - Ranked/ordered categories
+ - More information than nominal
+ - More meaningful comparisons
+ 
+### Interval
+ - Defined numerical unit of measure
+ - Useful comparisons
+ - Difference between observations is known and constant
+  
+## The End {.c}
+\centering
+What questions do you have?
