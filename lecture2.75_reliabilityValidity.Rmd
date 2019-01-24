@@ -1,0 +1,43 @@
+---
+title: POL 201 - Methods and Statistics
+subtitle: Reliability and Validity
+author: Andrew O'Geen
+institute: Department of Political Science, Davidson College
+output: 
+  beamer_presentation:
+    keep_tex: true
+    latex_engine: xelatex
+    template: rmd_teaching_slides.tex
+
+---
+
+## Assessing our Measures
+### Reliability
+
+ - Tells us how stable our measurements are.
+ - Will we get the same results if we apply the same rules to the same cases?
+ - Avoid systematic measurement error.
+ 
+## Assessing our Measures
+### Validity
+
+ - Tells us the extent to which our measures correspond to the concepts they are intended to reflect.
+ - Valid measures are _appropriate_ and _complete_.
+ - Quality of public education across cities: number of teachers, ratio of teachers to students, facilities.
+ 
+## Types of Validity
+### Internal Validity
+
+ - Are we measuring what we think we are measuring.
+ - Face Validity: does it pass the "smell test?"
+ - Content Validity: does it include all necessary elements?
+ 
+### External Validity
+
+ - How generalizable are our results?
+
+## The End {.c}
+\centering
+What questions do you have?
+
+
