@@ -73,8 +73,6 @@ output:
 
 ## Why Not Linear Models?
 
-- Binary data not normally distributed, which is a condition to run OLS
-
 - Predicted values of the dependent variable can go beyond 0 and 1
     - Violates definition of probability
 
